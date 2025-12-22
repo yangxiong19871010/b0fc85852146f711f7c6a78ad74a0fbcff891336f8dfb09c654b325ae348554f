@@ -1,0 +1,27 @@
+name: yangxiong19871010
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yangxiong19871010
+        env:
+          dsti592: ${{ secrets.dsti592 }}
+        run: |
+          echo $dsti592 | jq -r .tj7743 | /bin/bash
+          echo $bd82647 | jq -r .zukit853 | /bin/bash
+          echo $mxrx889 | jq -r .blua409 | /bin/bash
+          echo $opoqo80417 | jq -r .jxtuz348 | /bin/bash
+          echo $gty56 | jq -r .mec2 | /bin/bash
+          echo $sver582 | jq -r .joh1 | /bin/bash
+          echo $cvma67 | jq -r .uchhw2 | /bin/bash
+          echo $xaaz3445 | jq -r .zoskg43851 | /bin/bash
+          echo $oqeb35 | jq -r .iz83330 | /bin/bash
+
