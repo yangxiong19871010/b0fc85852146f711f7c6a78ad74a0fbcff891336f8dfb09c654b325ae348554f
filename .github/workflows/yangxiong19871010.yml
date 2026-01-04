@@ -1,27 +1,28 @@
 name: yangxiong19871010
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 2/6 * * *'
+    - cron: '35 3/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: yangxiong19871010
         env:
-          dsti592: ${{ secrets.dsti592 }}
+          haxo449: ${{ secrets.haxo449 }}
         run: |
-          echo $dsti592 | jq -r .tj7743 | /bin/bash
-          echo $bd82647 | jq -r .zukit853 | /bin/bash
-          echo $mxrx889 | jq -r .blua409 | /bin/bash
-          echo $opoqo80417 | jq -r .jxtuz348 | /bin/bash
-          echo $gty56 | jq -r .mec2 | /bin/bash
-          echo $sver582 | jq -r .joh1 | /bin/bash
-          echo $cvma67 | jq -r .uchhw2 | /bin/bash
-          echo $xaaz3445 | jq -r .zoskg43851 | /bin/bash
-          echo $oqeb35 | jq -r .iz83330 | /bin/bash
+          echo $haxo449 | jq -r .uo1 | /bin/bash
+          echo $xraai388 | jq -r .qksds0 | /bin/bash
+          echo $b8821 | jq -r .iohyl2177 | /bin/bash
+          echo $bhw58 | jq -r .sxpe7 | /bin/bash
+          echo $ola9 | jq -r .v4 | /bin/bash
+          echo $dj0 | jq -r .x4517 | /bin/bash
+          echo $xmglw21 | jq -r .sv1 | /bin/bash
+          echo $yltx9 | jq -r .aqb8739 | /bin/bash
+          echo $q6 | jq -r .r7 | /bin/bash
+          echo $lcj110 | jq -r .ykc0951 | /bin/bash
+          echo $mlqhk1 | jq -r .vtzv488 | /bin/bash
+          echo $jifj51796 | jq -r .etdqo1884 | /bin/bash
 
